@@ -15,7 +15,7 @@ public class GMaPC {
 		driver.get("https://www.toolsqa.com/selenium-webdriver/webdrivermanager/");
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
-		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.close();
 		
 		
